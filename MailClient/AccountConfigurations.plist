@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>New item - 3</key>
+	<dict>
+		<key>encryption</key>
+		<string></string>
+		<key>authType</key>
+		<string></string>
+		<key>name</key>
+		<string>Gmail</string>
+		<key>server</key>
+		<string></string>
+		<key>port</key>
+		<string></string>
+	</dict>
+	<key>New item - 2</key>
+	<dict>
+		<key>encryption</key>
+		<string></string>
+		<key>authType</key>
+		<string></string>
+		<key>name</key>
+		<string>Yahoo</string>
+		<key>server</key>
+		<string></string>
+		<key>port</key>
+		<string></string>
+	</dict>
+	<key>New item</key>
+	<dict>
+		<key>connectionType</key>
+		<integer>3</integer>
+		<key>encryption</key>
+		<string></string>
+		<key>authType</key>
+		<string>0</string>
+		<key>name</key>
+		<string>Gmail</string>
+		<key>server</key>
+		<string>imap.gmail.com</string>
+		<key>port</key>
+		<string>993</string>
+	</dict>
+</dict>
+</plist>

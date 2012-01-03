@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4CE89938C276787D174A2F0CFB7E670ABE5FA1C6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4CE89938C276787D174A2F0CFB7E670ABE5FA1C6" : 0,
+    "917334F59893EBD87714E5D8703B1F3AE47154F0" : 0,
+    "C612A1B12594EE60AFDBA41B5DD59FFBFED100CB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A8FC233E-009E-47E8-9FB5-20E18E69A91F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4CE89938C276787D174A2F0CFB7E670ABE5FA1C6" : "VGMail\/",
+    "917334F59893EBD87714E5D8703B1F3AE47154F0" : "MailClient\/MailCore\/iOSPorts\/",
+    "C612A1B12594EE60AFDBA41B5DD59FFBFED100CB" : "MailClient\/MailCore\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VGMail",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "VGMail.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Skilover\/VGMail.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4CE89938C276787D174A2F0CFB7E670ABE5FA1C6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mronge\/iOSPorts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "917334F59893EBD87714E5D8703B1F3AE47154F0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mronge\/MailCore.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C612A1B12594EE60AFDBA41B5DD59FFBFED100CB"
+    }
+  ]
+}

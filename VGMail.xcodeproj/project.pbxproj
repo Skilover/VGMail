@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F79FA60167622BE00F68856 /* VGMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F79FA5F167622BE00F68856 /* VGMessagesViewController.m */; };
+		7FC1E33F1674CA4400223566 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC1E33E1674CA4400223566 /* libcrypto.a */; };
+		7FC1E3411674CA5100223566 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC1E3401674CA5100223566 /* libiconv.dylib */; };
+		7FC1E3431674CA5B00223566 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC1E3421674CA5B00223566 /* CFNetwork.framework */; };
+		7FC1E34A1674D2BA00223566 /* VGNewAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1E3481674D2BA00223566 /* VGNewAccountViewController.m */; };
+		7FC1E3511674E8C500223566 /* VGAccountTypesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1E3501674E8C500223566 /* VGAccountTypesDataSource.m */; };
+		7FC1E3561674EAD500223566 /* VGAccountConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1E3551674EAD500223566 /* VGAccountConfiguration.m */; };
+		7FC1E3581674EE2000223566 /* AccountConfigurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FC1E3571674EE2000223566 /* AccountConfigurations.plist */; };
+		7FC1E35C16750AEF00223566 /* VGImapSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1E35B16750AEF00223566 /* VGImapSync.m */; };
+		7FC1E36216750CB500223566 /* VGErrorDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1E36116750CB500223566 /* VGErrorDecoder.m */; };
+		7FC1E36316751C4500223566 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1E35F16750BDF00223566 /* StringUtil.m */; };
+		7FD4C41816754178003294DE /* VGMailFoldersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD4C41716754178003294DE /* VGMailFoldersViewController.m */; };
+		7FE1C31916749E3E00368596 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE1C31816749E3E00368596 /* UIKit.framework */; };
+		7FE1C31B16749E3E00368596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE1C31A16749E3E00368596 /* Foundation.framework */; };
+		7FE1C31D16749E3E00368596 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE1C31C16749E3E00368596 /* CoreGraphics.framework */; };
+		7FE1C32316749E3E00368596 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FE1C32116749E3E00368596 /* InfoPlist.strings */; };
+		7FE1C32516749E3E00368596 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE1C32416749E3E00368596 /* main.m */; };
+		7FE1C32916749E3E00368596 /* VGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE1C32816749E3E00368596 /* VGAppDelegate.m */; };
+		7FE1C32B16749E3E00368596 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE1C32A16749E3E00368596 /* Default.png */; };
+		7FE1C32D16749E3E00368596 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE1C32C16749E3E00368596 /* Default@2x.png */; };
+		7FE1C32F16749E3E00368596 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE1C32E16749E3E00368596 /* Default-568h@2x.png */; };
+		7FE1C33216749E3E00368596 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE1C33016749E3E00368596 /* MainStoryboard_iPhone.storyboard */; };
+		7FE1C33516749E3E00368596 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE1C33316749E3E00368596 /* MainStoryboard_iPad.storyboard */; };
+		7FE1C33816749E3E00368596 /* VGAccountTypesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE1C33716749E3E00368596 /* VGAccountTypesController.m */; };
+		7FE1C3761674A7A000368596 /* libmailcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE1C3581674A70D00368596 /* libmailcore.a */; };
+		7FE1C3781674A7A900368596 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE1C3771674A7A900368596 /* libssl.a */; };
+		7FE1C37A1674A7BF00368596 /* libsasl2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE1C3791674A7BF00368596 /* libsasl2.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FC1E3441674CB1600223566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FE1C33E1674A70C00368596 /* MailCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8618B5610DADB5C00C41188;
+			remoteInfo = "MailCore iOS";
+		};
+		7FE1C3551674A70D00368596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FE1C33E1674A70C00368596 /* MailCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = MailCore;
+		};
+		7FE1C3571674A70D00368596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FE1C33E1674A70C00368596 /* MailCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8618B5710DADB5C00C41188;
+			remoteInfo = "MailCore iOS";
+		};
+		7FE1C3591674A70D00368596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FE1C33E1674A70C00368596 /* MailCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8DFCF4915801A5000C01975;
+			remoteInfo = Tests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F79FA5E167622BE00F68856 /* VGMessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGMessagesViewController.h; sourceTree = "<group>"; };
+		7F79FA5F167622BE00F68856 /* VGMessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGMessagesViewController.m; sourceTree = "<group>"; };
+		7FC1E33E1674CA4400223566 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "MailCore/iOSPorts/ports/security/openssl/build/Release-iphoneos/libcrypto.a"; sourceTree = "<group>"; };
+		7FC1E3401674CA5100223566 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		7FC1E3421674CA5B00223566 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7FC1E3471674D2BA00223566 /* VGNewAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGNewAccountViewController.h; sourceTree = "<group>"; };
+		7FC1E3481674D2BA00223566 /* VGNewAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGNewAccountViewController.m; sourceTree = "<group>"; };
+		7FC1E34F1674E8C500223566 /* VGAccountTypesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGAccountTypesDataSource.h; sourceTree = "<group>"; };
+		7FC1E3501674E8C500223566 /* VGAccountTypesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGAccountTypesDataSource.m; sourceTree = "<group>"; };
+		7FC1E3521674E93B00223566 /* VGAccountConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGAccountConfiguration.h; sourceTree = "<group>"; };
+		7FC1E3551674EAD500223566 /* VGAccountConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGAccountConfiguration.m; sourceTree = "<group>"; };
+		7FC1E3571674EE2000223566 /* AccountConfigurations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AccountConfigurations.plist; sourceTree = "<group>"; };
+		7FC1E35A16750AEF00223566 /* VGImapSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGImapSync.h; sourceTree = "<group>"; };
+		7FC1E35B16750AEF00223566 /* VGImapSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGImapSync.m; sourceTree = "<group>"; };
+		7FC1E35E16750BDF00223566 /* StringUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		7FC1E35F16750BDF00223566 /* StringUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
+		7FC1E36016750CB400223566 /* VGErrorDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGErrorDecoder.h; sourceTree = "<group>"; };
+		7FC1E36116750CB500223566 /* VGErrorDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGErrorDecoder.m; sourceTree = "<group>"; };
+		7FD4C41616754178003294DE /* VGMailFoldersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGMailFoldersViewController.h; sourceTree = "<group>"; };
+		7FD4C41716754178003294DE /* VGMailFoldersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGMailFoldersViewController.m; sourceTree = "<group>"; };
+		7FE1C31416749E3E00368596 /* VGMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VGMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE1C31816749E3E00368596 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7FE1C31A16749E3E00368596 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FE1C31C16749E3E00368596 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7FE1C32016749E3E00368596 /* VGMail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VGMail-Info.plist"; sourceTree = "<group>"; };
+		7FE1C32216749E3E00368596 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FE1C32416749E3E00368596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FE1C32616749E3E00368596 /* VGMail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VGMail-Prefix.pch"; sourceTree = "<group>"; };
+		7FE1C32716749E3E00368596 /* VGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VGAppDelegate.h; sourceTree = "<group>"; };
+		7FE1C32816749E3E00368596 /* VGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGAppDelegate.m; sourceTree = "<group>"; };
+		7FE1C32A16749E3E00368596 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7FE1C32C16749E3E00368596 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7FE1C32E16749E3E00368596 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7FE1C33116749E3E00368596 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		7FE1C33416749E3E00368596 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		7FE1C33616749E3E00368596 /* VGAccountTypesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VGAccountTypesController.h; sourceTree = "<group>"; };
+		7FE1C33716749E3E00368596 /* VGAccountTypesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGAccountTypesController.m; sourceTree = "<group>"; };
+		7FE1C33E1674A70C00368596 /* MailCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MailCore.xcodeproj; path = MailCore/MailCore.xcodeproj; sourceTree = "<group>"; };
+		7FE1C3771674A7A900368596 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "MailCore/iOSPorts/ports/security/openssl/build/Release-iphoneos/libssl.a"; sourceTree = "<group>"; };
+		7FE1C3791674A7BF00368596 /* libsasl2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsasl2.a; path = "MailCore/iOSPorts/ports/security/cyrus-sasl/build/Release-iphoneos/libsasl2.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FE1C31116749E3E00368596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC1E3431674CA5B00223566 /* CFNetwork.framework in Frameworks */,
+				7FC1E3411674CA5100223566 /* libiconv.dylib in Frameworks */,
+				7FC1E33F1674CA4400223566 /* libcrypto.a in Frameworks */,
+				7FE1C37A1674A7BF00368596 /* libsasl2.a in Frameworks */,
+				7FE1C3781674A7A900368596 /* libssl.a in Frameworks */,
+				7FE1C3761674A7A000368596 /* libmailcore.a in Frameworks */,
+				7FE1C31916749E3E00368596 /* UIKit.framework in Frameworks */,
+				7FE1C31B16749E3E00368596 /* Foundation.framework in Frameworks */,
+				7FE1C31D16749E3E00368596 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FC1E3461674D26000223566 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FE1C33616749E3E00368596 /* VGAccountTypesController.h */,
+				7FE1C33716749E3E00368596 /* VGAccountTypesController.m */,
+				7FC1E3471674D2BA00223566 /* VGNewAccountViewController.h */,
+				7FC1E3481674D2BA00223566 /* VGNewAccountViewController.m */,
+				7FD4C41616754178003294DE /* VGMailFoldersViewController.h */,
+				7FD4C41716754178003294DE /* VGMailFoldersViewController.m */,
+				7F79FA5E167622BE00F68856 /* VGMessagesViewController.h */,
+				7F79FA5F167622BE00F68856 /* VGMessagesViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7FC1E34D1674E83500223566 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7FE1C32716749E3E00368596 /* VGAppDelegate.h */,
+				7FE1C32816749E3E00368596 /* VGAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7FC1E34E1674E84500223566 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7FE1C33016749E3E00368596 /* MainStoryboard_iPhone.storyboard */,
+				7FE1C33316749E3E00368596 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		7FC1E35916750ABB00223566 /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1E35A16750AEF00223566 /* VGImapSync.h */,
+				7FC1E35B16750AEF00223566 /* VGImapSync.m */,
+			);
+			name = Sync;
+			sourceTree = "<group>";
+		};
+		7FC1E35D16750BB100223566 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1E35E16750BDF00223566 /* StringUtil.h */,
+				7FC1E35F16750BDF00223566 /* StringUtil.m */,
+				7FC1E36016750CB400223566 /* VGErrorDecoder.h */,
+				7FC1E36116750CB500223566 /* VGErrorDecoder.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		7FE1C30916749E3D00368596 = {
+			isa = PBXGroup;
+			children = (
+				7FE1C31E16749E3E00368596 /* MailClient */,
+				7FE1C31716749E3E00368596 /* Frameworks */,
+				7FE1C31516749E3E00368596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FE1C31516749E3E00368596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FE1C31416749E3E00368596 /* VGMail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FE1C31716749E3E00368596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1E3421674CA5B00223566 /* CFNetwork.framework */,
+				7FE1C33E1674A70C00368596 /* MailCore.xcodeproj */,
+				7FC1E3401674CA5100223566 /* libiconv.dylib */,
+				7FC1E33E1674CA4400223566 /* libcrypto.a */,
+				7FE1C3791674A7BF00368596 /* libsasl2.a */,
+				7FE1C3771674A7A900368596 /* libssl.a */,
+				7FE1C31816749E3E00368596 /* UIKit.framework */,
+				7FE1C31A16749E3E00368596 /* Foundation.framework */,
+				7FE1C31C16749E3E00368596 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FE1C31E16749E3E00368596 /* MailClient */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1E35D16750BB100223566 /* Utils */,
+				7FC1E35916750ABB00223566 /* Sync */,
+				7FC1E3521674E93B00223566 /* VGAccountConfiguration.h */,
+				7FC1E3551674EAD500223566 /* VGAccountConfiguration.m */,
+				7FC1E34F1674E8C500223566 /* VGAccountTypesDataSource.h */,
+				7FC1E3501674E8C500223566 /* VGAccountTypesDataSource.m */,
+				7FC1E3461674D26000223566 /* ViewControllers */,
+				7FC1E34D1674E83500223566 /* AppDelegate */,
+				7FC1E34E1674E84500223566 /* Storyboard */,
+				7FE1C31F16749E3E00368596 /* Supporting Files */,
+			);
+			path = MailClient;
+			sourceTree = "<group>";
+		};
+		7FE1C31F16749E3E00368596 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FE1C32016749E3E00368596 /* VGMail-Info.plist */,
+				7FE1C32116749E3E00368596 /* InfoPlist.strings */,
+				7FE1C32416749E3E00368596 /* main.m */,
+				7FE1C32616749E3E00368596 /* VGMail-Prefix.pch */,
+				7FE1C32A16749E3E00368596 /* Default.png */,
+				7FE1C32C16749E3E00368596 /* Default@2x.png */,
+				7FE1C32E16749E3E00368596 /* Default-568h@2x.png */,
+				7FC1E3571674EE2000223566 /* AccountConfigurations.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FE1C33F1674A70C00368596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FE1C3561674A70D00368596 /* MailCore.framework */,
+				7FE1C3581674A70D00368596 /* libmailcore.a */,
+				7FE1C35A1674A70D00368596 /* Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FE1C31316749E3E00368596 /* VGMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE1C33B16749E3E00368596 /* Build configuration list for PBXNativeTarget "VGMail" */;
+			buildPhases = (
+				7FE1C31016749E3E00368596 /* Sources */,
+				7FE1C31116749E3E00368596 /* Frameworks */,
+				7FE1C31216749E3E00368596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FC1E3451674CB1600223566 /* PBXTargetDependency */,
+			);
+			name = VGMail;
+			productName = MailClient;
+			productReference = 7FE1C31416749E3E00368596 /* VGMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FE1C30B16749E3D00368596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VG;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Skilover;
+			};
+			buildConfigurationList = 7FE1C30E16749E3D00368596 /* Build configuration list for PBXProject "VGMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FE1C30916749E3D00368596;
+			productRefGroup = 7FE1C31516749E3E00368596 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7FE1C33F1674A70C00368596 /* Products */;
+					ProjectRef = 7FE1C33E1674A70C00368596 /* MailCore.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7FE1C31316749E3E00368596 /* VGMail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7FE1C3561674A70D00368596 /* MailCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MailCore.framework;
+			remoteRef = 7FE1C3551674A70D00368596 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7FE1C3581674A70D00368596 /* libmailcore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmailcore.a;
+			remoteRef = 7FE1C3571674A70D00368596 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7FE1C35A1674A70D00368596 /* Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Tests.octest;
+			remoteRef = 7FE1C3591674A70D00368596 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FE1C31216749E3E00368596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE1C32316749E3E00368596 /* InfoPlist.strings in Resources */,
+				7FE1C32B16749E3E00368596 /* Default.png in Resources */,
+				7FE1C32D16749E3E00368596 /* Default@2x.png in Resources */,
+				7FE1C32F16749E3E00368596 /* Default-568h@2x.png in Resources */,
+				7FE1C33216749E3E00368596 /* MainStoryboard_iPhone.storyboard in Resources */,
+				7FE1C33516749E3E00368596 /* MainStoryboard_iPad.storyboard in Resources */,
+				7FC1E3581674EE2000223566 /* AccountConfigurations.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FE1C31016749E3E00368596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC1E36316751C4500223566 /* StringUtil.m in Sources */,
+				7FE1C32516749E3E00368596 /* main.m in Sources */,
+				7FE1C32916749E3E00368596 /* VGAppDelegate.m in Sources */,
+				7FE1C33816749E3E00368596 /* VGAccountTypesController.m in Sources */,
+				7FC1E34A1674D2BA00223566 /* VGNewAccountViewController.m in Sources */,
+				7FC1E3511674E8C500223566 /* VGAccountTypesDataSource.m in Sources */,
+				7FC1E3561674EAD500223566 /* VGAccountConfiguration.m in Sources */,
+				7FC1E35C16750AEF00223566 /* VGImapSync.m in Sources */,
+				7FC1E36216750CB500223566 /* VGErrorDecoder.m in Sources */,
+				7FD4C41816754178003294DE /* VGMailFoldersViewController.m in Sources */,
+				7F79FA60167622BE00F68856 /* VGMessagesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FC1E3451674CB1600223566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MailCore iOS";
+			targetProxy = 7FC1E3441674CB1600223566 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FE1C32116749E3E00368596 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FE1C32216749E3E00368596 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7FE1C33016749E3E00368596 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FE1C33116749E3E00368596 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7FE1C33316749E3E00368596 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FE1C33416749E3E00368596 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FE1C33916749E3E00368596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FE1C33A16749E3E00368596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FE1C33C16749E3E00368596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MailClient/VGMail-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(BUILT_PRODUCTS_DIR)/../../include\"";
+				INFOPLIST_FILE = "MailClient/VGMail-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vg.vgmail;
+				PRODUCT_NAME = VGMail;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7FE1C33D16749E3E00368596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MailClient/VGMail-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(BUILT_PRODUCTS_DIR)/../../include\"";
+				INFOPLIST_FILE = "MailClient/VGMail-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vg.vgmail;
+				PRODUCT_NAME = VGMail;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FE1C30E16749E3D00368596 /* Build configuration list for PBXProject "VGMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE1C33916749E3E00368596 /* Debug */,
+				7FE1C33A16749E3E00368596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE1C33B16749E3E00368596 /* Build configuration list for PBXNativeTarget "VGMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE1C33C16749E3E00368596 /* Debug */,
+				7FE1C33D16749E3E00368596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FE1C30B16749E3D00368596 /* Project object */;
+}

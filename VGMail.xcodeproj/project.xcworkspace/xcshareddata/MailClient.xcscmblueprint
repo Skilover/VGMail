@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "917334F59893EBD87714E5D8703B1F3AE47154F0" : 0,
+    "C612A1B12594EE60AFDBA41B5DD59FFBFED100CB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AF7B233C-6AA6-4894-A422-81D6C51FF6DD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "917334F59893EBD87714E5D8703B1F3AE47154F0" : "MailClient\/MailCore\/iOSPorts\/",
+    "C612A1B12594EE60AFDBA41B5DD59FFBFED100CB" : "MailClient\/MailCore\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MailClient",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MailClient.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mronge\/iOSPorts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "917334F59893EBD87714E5D8703B1F3AE47154F0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mronge\/MailCore.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C612A1B12594EE60AFDBA41B5DD59FFBFED100CB"
+    }
+  ]
+}
