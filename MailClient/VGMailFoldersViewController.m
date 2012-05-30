@@ -75,7 +75,13 @@
 }
 -(BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return YES;
+    UITableViewCell *selectedCell = [tableView cellForRowAtIndexPath:indexPath];
+    if ([selectedCell accessoryType] == UITableViewCellAccessoryCheckmark) {
+        [selectedCell setAccessoryType:UITableViewCellAccessoryNone];
+        [[self selectedFolders] removeObjectAtIndex:[indexPath row]];
+        return YES;
+    }
+    
 }
 #pragma mark - Table view delegate
 
